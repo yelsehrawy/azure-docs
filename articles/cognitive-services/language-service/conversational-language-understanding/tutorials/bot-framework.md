@@ -48,10 +48,12 @@ Now that your CLU project is deployed and ready, update the settings that will c
 
 In the **Core Bot** sample, update your [appsettings.json](https://aka.ms/clu-botframework-settings) with the appropriate values.
 
+ 
 - The _CluProjectName_ is **FlightBooking**.
 - The _CluDeploymentName_ is **Testing**
 - The _CluAPIKey_ can be either of the keys in the **Keys and Endpoint** section for your Language resource in the [Azure portal](https://portal.azure.com). You can also copy your key from the Project Settings tab in CLU. 
 - The _CluAPIHostName_ is the endpoint found in the **Keys and Endpoint** section for your Language resource in the Azure portal. Note the format should be ```<Language_Resource_Name>.cognitiveservices.azure.com``` without `https://`.
+- - The _MicrosoftAppId_ and _MicrosoftAppPassword_ can be left blank.
 
 ```json
 {
